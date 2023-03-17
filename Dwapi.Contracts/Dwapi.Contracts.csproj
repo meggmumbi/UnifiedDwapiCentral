@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Mnch\" />
+    <Folder Include="Crs\" />
+    <Folder Include="Hts\" />
+    <Folder Include="Prep\" />
+  </ItemGroup>
+
+</Project>

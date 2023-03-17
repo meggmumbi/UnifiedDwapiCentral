@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnifiedDwapiCentral", "UnifiedDwapiCentral\UnifiedDwapiCentral.csproj", "{96B634E7-F758-4BBB-8FE9-3BD8DC671A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{57FCB370-3D92-4509-A887-4C6B84058D43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Manifest", "Manifest", "{AE884366-93D1-493B-A3C4-EA7F577F3896}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spot", "Spot", "{23522AF2-8B4E-49FC-92C6-5E9A90A76E82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HIS", "HIS", "{75A68B27-C361-4A67-963D-85F00106CDE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{8E6F77F2-8EB6-4DBC-8915-324718D2DFFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1FD5E405-6856-41E8-BFC7-9C405F798404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CTService", "CTService", "{6F49ADD0-146B-4099-BD63-8884B53C32AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTSService", "HTSService", "{A902283E-3044-4CD0-B2E9-ADE9C2FC8F33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PrepService", "PrepService", "{FBEF5221-4BDE-4AF6-9621-31912A191E55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MNCHService", "MNCHService", "{5C16A906-B176-4BDE-9108-F8B5D82C3351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dwapi.Contracts", "Dwapi.Contracts\Dwapi.Contracts.csproj", "{28AE826C-4914-4972-8D4A-E4377EA62593}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96B634E7-F758-4BBB-8FE9-3BD8DC671A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B634E7-F758-4BBB-8FE9-3BD8DC671A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B634E7-F758-4BBB-8FE9-3BD8DC671A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B634E7-F758-4BBB-8FE9-3BD8DC671A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28AE826C-4914-4972-8D4A-E4377EA62593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28AE826C-4914-4972-8D4A-E4377EA62593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28AE826C-4914-4972-8D4A-E4377EA62593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28AE826C-4914-4972-8D4A-E4377EA62593}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28AE826C-4914-4972-8D4A-E4377EA62593} = {57FCB370-3D92-4509-A887-4C6B84058D43}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABA26929-C17F-474D-B22E-4B6F465851EE}
+	EndGlobalSection
+EndGlobal
